@@ -1,0 +1,442 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montserrat:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Lato";
+}
+
+section{
+    padding: 50px 0px;
+}
+
+.btn-white{
+    background: #fff;
+    color: rgba(6,164,235,0.8);
+}
+
+header, footer{
+    height: 11vh;
+    padding: 30px 0px;
+}
+
+.wistia{
+    text-align: right;
+}
+
+.wistia span{
+    color: #a8b0bb;
+    margin-right: 15px;
+}
+
+.hero{
+    background: url('https://i.postimg.cc/y6F3t8QH/mova-hero.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75vh;
+    width: 100%;
+    position: relative;
+}
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(6,164,235,0.8);
+}
+
+.z-100{
+    z-index: 100;
+}
+
+.hero-text{
+    color: #fff;
+}
+
+.hero-text h1{
+    font-weight: bold;
+    font-size: 56px;
+    text-align: center;
+}
+
+.hero-text p{
+    font-size: 20px;
+    text-align: center;
+}
+
+.hero-text .btn{
+    padding: 30px 40px;
+}
+
+.company-love{
+    text-align: center;
+    background: rgba(248,249,250,1);
+}
+
+.company-love h6{
+    color: #a8b0bb;
+}
+
+.company-love img{
+    width: 125px;
+}
+
+.benefits-header p{
+    font-size: 24px;
+    color: #a8b0bb;
+}
+
+.benefit{
+    text-align: center;
+}
+.benefit p{
+    text-align: center;
+    color: #a8b0bb;
+    font-size: 20px;
+}
+
+.icon-1 .img-container{
+    border: 2px solid #ef5928;
+    padding: 30px 25px 25px 25px;
+    width: 150px;
+}
+
+.icon-1 h4{
+    color: #ef5928;
+}
+
+.icon-2 .img-container{
+    border: 2px solid #38ca86;
+    padding: 30px 25px 25px 25px;
+    width: 150px;
+}
+
+.icon-2 h4{
+    color: #38ca86;
+}
+
+
+.icon-3 .img-container{
+    border: 2px solid #f4941c;
+    padding: 30px 25px 25px 25px;
+    width: 150px;
+}
+
+.icon-3 h4{
+    color: #f4941c;
+}
+
+.testmonials{
+    background: rgba(238,238,238,1);
+}
+
+.testmonials-heading h6{
+    color: #a8b0bb;
+    margin-bottom: 5rem;
+}
+
+.left-col , .right-col{
+    width: 400px;
+    margin: 0 auto;
+}
+
+.left-col p, .right-col p{
+    color: #a8b0bb;
+    font-size: 22px;
+}
+
+.left-col h4, .right-col h4{
+    font-size: 16px;
+    margin-bottom: 0;
+    color: #a8b0bb;
+}
+
+.left-col span, .right-col span{
+    font-size: 14px;
+    color: #a8b0bb;
+}
+
+
+@media screen and (max-width: 1025px) {
+    header, footer{
+        height: 11vh;
+        padding: 30px 0px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .header{
+        text-align: center;
+    }
+
+    .wistia{
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .hero-text h1{
+        font-size: 48px;
+    }
+    
+    .hero-text p{
+        font-size: 18px;
+    }
+    
+    .hero-text .btn{
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    
+    .icon-container{
+        background: rgba(231,231,231,1);
+    }
+    
+    .icon img{
+        width: 65px;
+    }
+    
+    .icon h4{
+        font-weight: bold;
+        font-size: 16px;
+    }
+    
+    .testimonials-heading p{
+        color: rgb(128, 128, 128);
+        font-size: 14;
+    }
+    
+    .testimonial{
+        border: 1px solid #d7d7d7;
+        padding: 40px 20px;
+        text-align: center;
+        color: rgb(128, 128, 128);
+    }
+    
+    .shop-suit h3{
+        font-size: 36px;
+        font-weight: bold;
+    }
+    
+    .shop-suit .btn{
+        padding: 15px 20px;
+        font-size: 14px;
+    }
+ }
+
+ @media screen and (max-width: 750px) {
+    .header .wistia{
+        display: none;
+    }
+
+    .d-sm-none{
+        display: none;
+    }
+
+    .btn-center{
+        text-align: center !important;
+    }
+
+    .hero-text h1{
+        font-size: 30px;
+    }
+    
+    .hero-text p{
+        font-size: 13px;
+    }
+    
+    .btn{
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+
+    .company-love h6{
+        font-size: 16px;
+        margin-bottom: 40px;
+    }
+
+    .company-love img{
+        margin-bottom: 40px;
+    }
+
+    .benefits-header h2{
+        font-size: 22px;
+    }
+
+    .benefits-header p{
+        font-size: 18px;
+    }
+    
+    
+    .benefit img{
+        width: 50px;
+    }
+
+    .icon-1 .img-container {
+        padding: 25px 15px 15px 15px;
+        width: 100px;
+    }
+    
+    .icon-2 .img-container {
+        padding: 25px 15px 15px 15px;
+        width: 100px;
+    }
+    .icon-3 .img-container {
+        padding: 25px 15px 15px 15px;
+        width: 100px;
+    }
+
+    .benefit{
+        margin-bottom: 2.5rem;
+    }
+
+    .benefit h4{
+        font-size: 16px;
+    }
+
+    .benefit p{
+        font-size: 14px;
+    }
+    
+    .testimonials-heading h3{
+        font-size: 18px;
+        margin-bottom: 2rem;
+    }
+    
+    .testimonials-heading p{
+        font-size: 14px;
+        margin-bottom: 2rem;
+    }
+
+    .testimonial{
+        padding: 20px;
+    }
+
+
+    .testimonial p{
+        font-size: 14px;
+    }
+
+    .footer {
+        text-align: center;
+        padding: 20px 0px;
+        height: 100%;
+    }
+
+    .footer img{
+        width: 100px;
+        margin-bottom: 10px;
+    }
+
+    .footer span{
+        font-size: 14px;
+    }
+ }
+
+ @media screen and (max-width: 399.99px) {
+    header img{
+        width: 100px;
+    }
+
+    .header{
+        text-align: center;
+    }
+
+    .header .wistia{
+        display: none;
+    }
+
+    .hero-text h1{
+        font-size: 20px;
+    }
+    
+    .hero-text p{
+        font-size: 12px;
+    }
+    
+    .hero-text .btn{
+        padding: 7px 15px;
+        font-size: 10px;
+    }
+    
+    .company-love h6{
+        font-size: 14px;
+        margin-bottom: 40px;
+    }
+
+    .company-love img{
+        margin-bottom: 40px;
+    }
+
+    .benefits-header h2{
+        font-size: 18px;
+    }
+
+    .benefits-header p{
+        font-size: 14px;
+    }
+    
+    .benefit img{
+        width: 50px;
+    }
+
+    .icon-1 .img-container {
+        padding: 25px 15px 15px 15px;
+        width: 100px;
+    }
+    
+    .icon-2 .img-container {
+        padding: 25px 15px 15px 15px;
+        width: 100px;
+    }
+    .icon-3 .img-container {
+        padding: 25px 15px 15px 15px;
+        width: 100px;
+    }
+
+    .benefit h4{
+        font-size: 16px;
+    }
+
+    .benefit p{
+        font-size: 14px;
+    }
+    
+    .testmonials-heading h6{
+        font-size: 16px;
+        margin-bottom: 2rem !important;
+    }
+    
+    .testimonials-heading p{
+        font-size: 14px;
+        margin-bottom: 2rem;
+    }
+
+    .left-col p, .right-col p{
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 2rem !important;
+    }
+
+    .testimonial{
+        padding: 20px;
+    }
+    
+    .left-col, .right-col {
+        text-align: center;
+    }
+
+    .footer {
+        text-align: center;
+        padding: 20px 0px;
+        height: 100%;
+    }
+ }
